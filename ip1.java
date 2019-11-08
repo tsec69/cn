@@ -44,3 +44,22 @@ class ip1
 
     }
 }
+
+/*
+Output:
+Please enter the Hex Dump:
+4500005400035850200600007C4E0302B40E0F02
+IP Version: 4
+Header Length: 20
+Precedence: 0
+Total Length: 84 Bytes
+Identification: 3
+Do not Fragment Packet
+No more Fragments pending
+Fragmentation Offset: 49772
+Time to live: 32 Hops
+Protocol: TCP
+Header Checksum: 0
+Source IP Address: 124.78.3.2
+Destination IP Address: 180.14.15.2
+*/
