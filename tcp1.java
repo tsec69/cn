@@ -20,3 +20,18 @@ class tcp1{
 		System.out.println("Urgent pointer: "+Integer.parseInt(hex.substring(36,40),16));
 	}
 }
+
+/*
+Output: 
+Please enter the Hex Dump:
+053200170000000100000000500207FF00000000
+Source Port: 1330
+Destination Port: 23
+Sequence Number: 1
+Acknowledgement Number: 0
+Header Length: 20 Bytes
+Sender is attempting to Synchronize Sequence Numbers
+Window Size: 2047 Bytes
+Header Checksum: 0
+Urgent Pointer: 0
+*/
