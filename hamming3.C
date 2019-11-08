@@ -3,13 +3,11 @@ int main(){
 int dest[7],bits[7],i,j;
 int pos1,pos2,pos3,pos;
 printf("\nEnter the hamming code: ");
-scanf("%d%d%d%d",&bits[0],&bits[1],&bit
-s[2],&bits[4]);
+scanf("%d%d%d%d",&bits[0],&bits[1],&bits[2],&bits[4]);
 bits[6]=bits[0]^bits[2]^bits[4];
 bits[5]=bits[0]^bits[1]^bits[4];
 bits[3]=bits[0]^bits[1]^bits[3];
-printf("\nEnter the bit at which you want to
-introduce the error: ");
+printf("\nEnter the bit at which you want to introduce the error: ");
 scanf("%d",&j);
 printf("\nThe Encoded bits are: ");
 for(i=0;i<7;i++){
@@ -30,8 +28,7 @@ if(pos==0){
 printf("\nError is not present");
 }
 else{
-printf("\nThis code contains error at
-position: %d",pos);
+printf("\nThis code contains error at position: %d",pos);
 if(dest[7-pos]==0){
 dest[7-pos]=1;
 
