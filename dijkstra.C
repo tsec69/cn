@@ -1,3 +1,15 @@
+/*
+Example input:
+Number of vertices: 6
+Adjacency matrix: 
+0 10 15 0 0 0 
+0 0 0 12 0 15
+0 0 0 0 10 0
+0 0 0 0 2 1
+0 0 0 0 0 0 
+0 0 0 0 0 5
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #define INFINITY 9999
