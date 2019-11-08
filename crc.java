@@ -1,3 +1,13 @@
+/*
+Sample inputs: 
+
+Generator: 1101
+Data: 100100
+
+Generator: 10101
+Data: 110010101
+*/
+
 import java.io.*;
 
 class crc
